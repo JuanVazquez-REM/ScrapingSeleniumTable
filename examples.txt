@@ -1,0 +1,15 @@
+https://tradingeconomics.com/mexico/currency
+/html/body/form/div[6]/div/div[1]/div[5]/div[1]/table
+"namesRow": "Majors",
+"valuesCol": "Price"
+
+https://tradingeconomics.com/united-states/stock-market
+/html/body/form/div[6]/div/div[1]/div[5]/div[1]/div/table
+"namesRow": "Components",
+"valuesCol": "Price"
+
+https://tradingeconomics.com/spx:ind
+/html/body/form/div[4]/div/div[1]/div[8]/div[2]/table
+"namesRow": "Indexes",
+"valuesCol": "Price"
+
