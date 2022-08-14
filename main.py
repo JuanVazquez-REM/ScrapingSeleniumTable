@@ -2,9 +2,6 @@ from classSelenium import classSelenium
 from classJson import classJson
 from classPandas import classPandas
 
-import pandas as pd
-import os.path
-
 data = classJson.readJson('config')
 
 webDriver = classSelenium(data['driver']['path'])
@@ -23,3 +20,4 @@ classPandas.dataFrametoExcel(dataFrame,data['file']['fileName'],data['file']['sh
 #Graficando
 classPandas.graficBar(dataFrame,data['table']['graphBar']['namesRow'],data['table']['graphBar']['valuesCol'])
 print("Fin")
+
